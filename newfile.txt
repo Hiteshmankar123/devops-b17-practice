@@ -2,7 +2,14 @@ Hello Nagpur
 Orange city
 
 This is demo
+<<<<<<< HEAD
 abc
 abc
 abc
 nvhchvn
+=======
+xyz
+xyz
+xyz
+>>>>>>> ee08ad95b0c8fd430a845ba488fb698c0ac732ef
+fbvvcbsc
