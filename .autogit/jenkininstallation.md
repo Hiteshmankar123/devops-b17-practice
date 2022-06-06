@@ -1,4 +1,4 @@
-
+...shell
 # install  java
 yum install  java-11-openjdk -y
 # configre jenkins repo
