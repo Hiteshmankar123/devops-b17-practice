@@ -10,3 +10,4 @@ yum install jenkins
 systemctl start jenkins
 systemctl enable jenkins 
 sudo update-alternatives --config java ---> if error occur
+...
