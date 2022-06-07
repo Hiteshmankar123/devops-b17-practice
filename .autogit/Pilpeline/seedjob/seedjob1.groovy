@@ -1,5 +1,5 @@
 job('example') {
     scm {
-        shell
+        shell 
     }
 }
