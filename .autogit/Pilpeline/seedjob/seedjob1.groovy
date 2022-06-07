@@ -1,5 +1,5 @@
-job('example1') {
-    scm {
-       shell('echo "welcome to cloudblitz"') 
+job('example2') {
+    steps {
+        shell('echo "Welcome To Nagpur"')
     }
 }
