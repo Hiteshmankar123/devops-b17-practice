@@ -1,5 +1,5 @@
 job('example') {
     scm {
-       shell('echo ) 
+       shell('echo welcome to cloudblitz') 
     }
 }
