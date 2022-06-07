@@ -4,7 +4,7 @@ node {
     }
     stage('Build') { 
         echo 'Buidl Successful'
-    
+    }
     stage('Test') { 
         echo 'test successful' 
     }
