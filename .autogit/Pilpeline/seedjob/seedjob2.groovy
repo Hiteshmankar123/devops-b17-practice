@@ -3,10 +3,8 @@ pipelineJob('scripted-2') {
   description('')
 
   displayName('scripted-2'
-
   configure { flowdefinition ->
-
-    flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2725.v7b_c717eb_12ce') {
+   flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2725.v7b_c717eb_12ce') {
 
       'scm'(class:'hudson.plugins.git.GitSCM',plugin:'git@4.11.3') {
 
