@@ -2,17 +2,7 @@ pipelineJob('scripted-2') {
 
   description('')
 
-  displayName('scripted-2')
-
-  keepDependencies(false)
-
-  quietPeriod(0)
-
-  checkoutRetryCount(0)
-
-  disabled(false)
-
-  concurrentBuild(false)
+  displayName('scripted-2'
 
   configure { flowdefinition ->
 
