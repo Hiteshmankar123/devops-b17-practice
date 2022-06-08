@@ -4,7 +4,7 @@ pipelineJob('scripted-2') {
 
   displayName('scripted-2'
 
-  configure { flowdefinition ->
+  configure  { flowdefinition ->
 
    flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2725.v7b_c717eb_12ce') {
 
