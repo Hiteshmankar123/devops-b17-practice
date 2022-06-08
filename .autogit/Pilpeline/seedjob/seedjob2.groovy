@@ -2,7 +2,7 @@ pipelineJob('scripted-2') {
 
   description('')
 
-  displayName('scripted-pipeline_converted')
+  displayName('scripted-2')
 
   keepDependencies(false)
 
