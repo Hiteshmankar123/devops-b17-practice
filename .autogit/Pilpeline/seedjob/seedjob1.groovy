@@ -1,4 +1,4 @@
-job('example2') {
+job('example') {
     steps {
         shell('echo "Welcome To Nagpur"')
     }
