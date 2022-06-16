@@ -4,8 +4,6 @@ pipelineJob('scripted-pipeline_converted') {
 
   displayName('scripted-3')
 
-  keepDependencies(false)
-
   configure { flowdefinition ->
 
     flowdefinition << delegate.'definition'(class:'org.jenkinsci.plugins.workflow.cps.CpsScmFlowDefinition',plugin:'workflow-cps@2725.v7b_c717eb_12ce') {
