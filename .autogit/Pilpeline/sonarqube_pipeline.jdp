@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test'){
             steps {
-                echo 'Test Successful by Hitesh Mankar'
+                echo 'Test Successful by Hitesh'
             }
         }
         stage('Deploy'){
