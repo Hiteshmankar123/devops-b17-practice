@@ -16,7 +16,7 @@ pipeline {
         stage('Sonar-QualityGate'){
            steps {
                 timeout(time: 1, unit: 'HOURS') {                  -----> Timeout means 1 hr tak wait karega 
-                        waitForQualityGate abortPipeline: true
+                     waitForQualityGate abortPipeline: true
                 }       
             }
         }
